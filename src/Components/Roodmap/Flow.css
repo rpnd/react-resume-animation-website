@@ -1,0 +1,17 @@
+.FlowC {
+    width: 60%;
+    height: 1450px;
+    position: absolute;
+    top: 800px;
+}
+.react-flow__node-default, .react-flow__node-input, .react-flow__node-output{
+    background: aqua;
+    border-radius: 100px 0px 100px 0px;
+
+}
+@media screen and (max-width: 571px){
+    .FlowC{
+        display: none;
+    }
+}
+
